@@ -1,0 +1,27 @@
+.df-product-request-form-container{
+    width:65%;
+    border:2px solid #9c54a8;
+    border-radius: 20px;
+    padding:2%;
+    margin-top: 15%;
+    margin:auto;
+}
+
+.df-request-form-heading{
+    font-size:140%;
+    font-weight: bold;
+    text-align: center;
+}
+
+.df-request-form-body{
+    width:100%;
+    margin:auto;
+}
+
+.text-purple{
+    color:#9c54a8!important;
+}
+
+.btn-purple-link{
+    color:#9c54a8!important;
+}
