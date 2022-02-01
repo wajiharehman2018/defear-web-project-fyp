@@ -1,0 +1,337 @@
+body{
+    height: 100vh;
+    background-color:#f8f9fa;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav > *{
+    background-color: #fff;
+}
+
+.user-profile{
+    border:1px solid rgba(186, 104, 200, 0.5);
+}
+.username-greeting{
+    font-size: 15px;
+    color: grey;
+}
+
+li.nav-item{
+    width:100px;
+    text-align: center;
+    margin: 0 10px;
+}
+
+nav{
+background-color: white;
+}
+
+li.nav-item .nav-link{
+    border:2px solid #fff; 
+    transition:0.3s ease;
+}
+
+li.nav-item .nav-link:hover{
+    border:2px solid #9c54a8; 
+    border-radius: 5px;
+    color: white!important;    
+    background-color: #9c54a8 ;
+}
+
+.df-cbt-session-details{
+    border:2px solid gainsboro;
+    border-radius: 10px;
+    margin: 0 10px;
+}
+
+.df-session-initial{
+    background: rgba(220, 220, 220, 0.3);
+}
+
+.df-cbt-session-id, .df-notes-header{
+    font-weight: bold;
+    font-size: 25px;
+    color:grey;
+}
+
+
+.df-cbt-session-title{
+    font-weight: normal;
+    font-size: 20px;
+    color:grey;
+}
+
+.purple-border textarea {
+    border: 1px solid #ba68c8;
+}
+.purple-border .form-control:focus {
+    border: 1px solid #ba68c8;
+    box-shadow: 0 0 0 0.2rem rgba(186, 104, 200, .25);
+}
+
+.btn-add-note, .btn-purple{
+    background-color:#ba68c8;
+    border-color:#ba68c8;
+}
+
+.btn-purple{
+    color:white;
+    transition: 0.4s ease;
+}
+
+.btn-purple:hover{
+    color:#ba68c8;
+    background-color: white;
+    border-color:#ba68c8;
+}
+
+.btn-purple:focus{
+    border: 1px solid #ba68c8;
+    box-shadow: 0 0 0 0.2rem rgba(186, 104, 200, .25);
+}
+
+.btn-purple a{
+    color:white;
+    display: block;
+}
+
+.btn-purple a:hover{
+    color:#ba68c8;
+    text-decoration: none;
+}
+
+.btn-grey {
+    transition: 0.4s ease;
+}
+
+.btn-grey:hover{
+    background-color: white;
+    color:grey;
+    border:1px solid grey;
+}
+
+.has-search{
+    width:40%;
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback, .client-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+#searchClient{
+    height: 3rem!important;
+    font-size:1.35rem;
+    padding-left:3rem;
+}
+
+.client-search .form-control-feedback{
+    position:absolute; top:18px; left:25px; width:10px; height:10px
+}
+
+#stopwatch {
+    font-size: 100px;
+    /* position:absolute;
+    top:65%;
+    left:50%;
+    transform: translate(-50%, -55%); */
+    margin-top: 10%;
+    text-align: center;
+    color:grey;
+}
+
+.df-cbt-summary-report{
+    border:2px solid grey;
+    border-radius:10px;
+    color:grey;
+}
+.df-cbt-sr-banner{
+    color:white;
+    background-color: grey;
+    padding:5px;
+    border-radius: 10px 10px 0 0;
+    border:2px solid grey;
+}
+.df-session-summary-subheading{
+    font-size:25px;
+    margin-left:7%;
+}
+
+.df-cbt-sr-banner-icon{
+    font-size:50px;
+    margin-right:10px;
+}
+
+.df-cbt-sr-session-title{
+    padding: 10px 0 10px 0;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+
+.df-cbt-sr-client-container{
+    /* border:2px solid gainsboro; */
+    font-weight: lighter;
+}
+.df-cbt-sr-client-container label{
+    /* border:2px solid gainsboro; */
+    font-weight: normal;
+}
+
+@media print {
+	.no-printme  {
+		display: none;
+	}
+	.printme  {
+		display: block;
+	}
+}
+
+.dropdown-item:active{
+    background-color: #ba68c8;
+}
+
+.phobia-card, .phobia-level-card, .phobia-milestone-card{
+    color:#baa9bd;
+    border-color:#baa9bd;
+    transition: 0.5s ease;
+}
+
+.selected-phobia{
+    color:#ba68c8;
+    border-color:#ba68c8; 
+    border-width:2px;
+}
+
+.rounded-wrapper{
+    border-radius:100%;
+    border:1px solid #baa9bd;
+    height:100%;
+    width:30%;
+    padding:5%;
+    margin: auto;
+    text-align: center;
+    /* width: calc(100vh-5%); */
+}
+
+.phobia-card:hover{
+    border-color:#ba68c8;
+    border-width: 2px;
+    color:#ba68c8;
+}
+
+.phobia-selection-heading{
+    letter-spacing: 5px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    color: gray;
+    text-align: center;
+    font-size: 25px;
+}
+
+.phobia-details{
+    background-color: #ba68c8;
+    color:white;
+    margin-top:2%;
+    padding:4% 0 4% 0;
+    width:100%;
+    border-radius: 0 0 0.25rem 0.25rem    ;
+}
+
+.phobia-title{
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+
+.phobia-description{
+    margin-bottom: 2%;
+}
+
+.phobia-selection-level-number,.phobia-selection-milestone{   
+    padding-bottom: 15%;
+}
+
+.vertical-center {
+    width: 100%;
+    height: 0;
+}
+
+.df-client-profile-container{
+    margin:5% 0;
+    width:100%;
+    background-color: white;
+    padding:1% 3%;
+    border:1px solid gainsboro;
+    border-radius:5px;
+}
+
+.df-client-profile-details{
+    
+}
+.df-client-profile-name{
+    font-weight:600;
+}
+.df-client-profile-name, .df-client-profile-contact{
+    font-size:110%;
+    color:gray;
+}
+
+.df-client-profile-contact{
+    font-size:100%;
+    font-weight:semi-bold;
+}
+
+.grey-shadow{
+    box-shadow: 0px 0px 5px 1px rgba(209, 209, 209, 0.5);
+}
+
+#btnStartScenario{
+    display:block;
+}
+
+.client-profile-image.rounded-circle { 
+    width: 10em!important;
+    height: 10rem!important;
+    border: 3px solid #e1e1e1!important;
+    box-shadow: 0px 0px 9px #c3c3c3!important;
+}
+
+.round-upload-btn{
+    position: relative;
+    bottom: 30px;
+    left: 110px;
+    background: #9c54a8;
+    width: 32px;
+    height: 32px; 
+    text-align: center;
+    border-radius: 50%;
+    overflow: hidden;
+   
+}
+
+.round-upload-btn i{
+    color:#fff!important;
+    margin-top: 8px;
+}
+
+input[type = "file"].client-profile-uploader{
+    position: absolute;
+    transform: scale(2);
+    opacity: 0;
+  }
+  
+  input[type=file]::-webkit-file-upload-button{
+      cursor: pointer;
+  }
